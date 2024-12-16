@@ -1,0 +1,55 @@
+@import url('./font.scss');
+@import url('./reset.scss');
+
+body,
+html {
+  font-family: 'Noto Serif SC', serif;
+}
+
+html.dark {
+  background-color: $darkBg;
+  color: $darkText;
+}
+
+html.light {
+  background: $primaryBg;
+  color: $primaryText;
+}
+
+html[data-theme='gray'] {
+  filter: grayscale(1);
+}
+
+#__nuxt {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-container {
+  max-width: 1024px;
+  margin: 0 1.5rem;
+}
+
+.main {
+  overflow: hidden;
+}
