@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <footer class="h-20 flex items-center justify-center">
@@ -13,7 +12,7 @@
 <style lang="scss" scoped>
 footer {
   a {
-    font-size: 14px;
+    font-size: 14px;·
     font-weight: 400;
     color: #c2c2c2;
     line-height: 20px;
